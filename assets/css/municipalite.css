@@ -1,0 +1,44 @@
+
+/* a suprim apres */
+.banner-tmp {
+  height: 100px;
+}
+/* END a suprim apres */
+
+/*TITRE MUNICIPALITE*/
+.title-muni{
+  background-color: red; /* a changer */
+  margin-bottom: 0px;
+
+  width: 60%;
+  padding-left: 2.5%;
+  padding-top: 2.5%;
+}
+
+h1{
+  font-size: 5em;
+}
+
+/* END TITRE MUNICIPALITE*/
+
+.col {
+  background-color: yellow;
+}
+
+.list-muni{
+  background-color: grey; /* a changer */
+  margin-bottom: 0px;
+  padding-top: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.card-muni{
+  display: flex;
+}
+
+.card-muni .img img{
+  height: 100%;
+  width: 100%;
+  /*object-fit: cover;*/
+}

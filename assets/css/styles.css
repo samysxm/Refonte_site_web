@@ -1,0 +1,272 @@
+/*//////////////////////////NAVBAR//////////////////////////////*/
+.Topbar {
+  background: #ffffff;
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  color: #333;
+  border-radius: 0;
+  box-shadow: none;
+  border: none;
+  margin-bottom: 0;
+  height: 10%;
+}
+
+@media (min-width:768px) {
+  .navigation-clean {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+#Logo img{
+  width: 30%;
+}
+/*//////////////////////////END NAVBAR//////////////////////////////*/
+
+/*//////////////////////////FOOTER//////////////////////////////*/
+#footer_BOX {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #ffffff;
+  color: #fff;
+}
+ .container .icone{
+  margin-left: auto;
+  margin-right: auto;
+  display:inline-block;
+}
+.container ul{
+  text-align: center!important;
+}
+/*//////////////////////////END FOOTER//////////////////////////////*/
+
+/*///////////////////CAROUSEL///////////////////////////*/
+
+/*
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+*/
+
+.news {
+  display: grid;
+  height: 100%;
+  place-items: center;
+  text-align: center;
+}
+
+.slider{
+  max-width: 1100px;
+  display: flex;
+}
+.slider .card{
+  flex: 1;
+  margin: 0 10px;
+  background: #fff;
+}
+.slider .card .img{
+  height: 200px;
+  width: 100%;
+}
+.slider .card .img img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.slider .card .content{
+  padding: 10px 20px;
+}
+.card .content .title{
+  font-size: 25px;
+  font-weight: 600;
+}
+.card .content .sub-title{
+  font-size: 20px;
+  font-weight: 600;
+  color: #009975;
+  line-height: 20px;
+}
+.card .content p{
+  text-align: justify;
+  margin: 10px 0;
+}
+.card .content .btn{
+  display: block;
+  text-align: left;
+  margin: 10px 0;
+}
+.card .content .btn button{
+  background: #009975;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  padding: 5px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.card .content .btn button:hover{
+  transform: scale(0.9);
+}
+
+.slider-nav-prev-btn{
+  position: absolute;
+  margin-top: 5%;
+  width: 5%;
+  top: 35%;
+  left: 2%;
+  opacity: 0.15;
+  transform: scale(0.5);
+  animation: slider-nav-btn-anim-out 0.5s;
+}
+.slider-nav-prev-btn:hover{
+  animation: slider-nav-btn-anim-in 0.5s forwards;
+}
+
+.slider-nav-next-btn{
+  position: absolute;
+  margin-top: 5%;
+  width: 5%;
+  top: 35%;
+  right: 2%;
+  opacity: 0.15;
+  transform: scale(0.5);
+  animation: slider-nav-btn-anim-out 0.5s;
+}
+.slider-nav-next-btn:hover{
+  animation: slider-nav-btn-anim-in 0.5s forwards;
+}
+
+@keyframes slider-nav-btn-anim-in {
+  From {
+		opacity: 0.15;
+		transform: scale(0.5);
+	}
+	To {
+    opacity: 1.0;
+    transform: scale(0.9);
+	}
+}
+
+@keyframes slider-nav-btn-anim-out {
+  From {
+    opacity: 1.0;
+    transform: scale(0.9);
+	}
+	To {
+		opacity: 0.15;
+		transform: scale(0.5);
+	}
+}
+/*///////////////////END CAROUSEL///////////////////////////*/
+
+
+
+/*///////////////////CONTAINER CONTACT///////////////////////////*/
+#contact.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "contact loca loca"
+    "contact mail tel"
+    "contact form form";
+}
+
+.contact { grid-area: contact; }
+
+.loca { grid-area: loca; }
+
+.mail { grid-area: mail; }
+
+.tel { grid-area: tel; }
+
+.form { grid-area: form; }
+
+#contact .container{
+  padding: 17px;
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+}
+.container i {
+  font-size: 20px;
+  color: #fff;
+  float: left;
+  width: 39px;
+  height: 39px;
+  background: #009975;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+}
+.b-btn{
+  color: #fff;
+  background-color: #12654b;
+  border-color: #70bda4;
+
+  padding: .5rem .80rem;
+  font-size: 1rem;
+  border-radius: .3rem;
+  width: 100%;
+}
+ .Envoyer{
+   margin: auto;
+   text-align: center;
+   padding-top: .80em;
+   height: 3em;
+ }
+.container p {
+  padding: 0 0 0 25px;
+  margin-bottom: 0;
+}
+
+.tel, .form, .mail, .loca{
+  margin: 2em 0em 0em 0em;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+}
+.mail{
+  margin-right: 0em;
+}
+
+.container a:hover {
+  color: #c0c8ce;
+  background: cadetblue;
+}
+
+.container div {
+  background: #ffffff;
+}
+
+.container h2 {
+  width: 280px;
+  height: 24px;
+  margin: 15px;
+  padding: 0px;
+}
+
+.container h4 {
+  color: #a9a8ab;
+}
+
+.container p {
+  margin: -10px 0px 0px 0px;
+  font-size: 14px;
+  color: #a9a8ab;
+}
+/*///////////////////END CONTAINER CONTACT///////////////////////////*/
+
+
+/*
+
+
+
+*/

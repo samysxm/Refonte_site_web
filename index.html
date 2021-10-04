@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>1save</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+</head>
+
+<body>
+  <!-- test -->
+    <nav class="navbar fixed-top navbar-light navbar-expand-md Topbar">
+        <div class="container">
+            <a class="navbar-brand" href="#" id="Logo">
+            <img src="assets/src/LOGO2.png">
+        </a>
+            <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#Topbar_BOX">
+                <span class="visually-hidden">Toggle navigation</span>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="Topbar_BOX">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#">Activité</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Municipalité</a></li>
+                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#">Services</a>
+                        <div class="dropdown-menu"><a class="dropdown-item" href="#">N1</a><a class="dropdown-item" href="#">N2</a><a class="dropdown-item" href="#">N3</a></div>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#">Activité &amp; Découverte</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<!-- CAROUSEL -->
+    <section class="news">
+
+      <div class="slider owl-carousel">
+        <div class="card">
+          <div class="img"><img src="assets/src/photo0.jpg" alt=""></div>
+          <div class="content">
+            <div class="title">Jule Medeline</div>
+            <div class="sub-title">Pharmacien du quartier</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae animi nihil minus sed unde voluptas cumque.</p>
+            <div class="btn">
+              <button>Lire plus</button>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="img"><img src="assets/src/photo1.png" alt=""></div>
+          <div class="content">
+            <div class="title">Jordan Morice</div>
+            <div class="sub-title">Streamer Plein Temps</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae animi nihil minus sed unde voluptas cumque.</p>
+            <div class="btn">
+              <button>Lire plus</button>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="img"><img src="assets/src/photo2.jpg" alt=""></div>
+          <div class="content">
+            <div class="title">Jack Cubritz</div>
+            <div class="sub-title">Web Developer</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae animi nihil minus sed unde voluptas cumque.</p>
+            <div class="btn">
+              <button>Lire plus</button>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="img"><img src="assets/src/photo3.jpg" alt=""></div>
+          <div class="content">
+            <div class="title">Pierre Caillou</div>
+            <div class="sub-title">App Developer</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae animi nihil minus sed unde voluptas cumque.</p>
+            <div class="btn">
+              <button>Lire plus</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <script>
+      $(".slider").owlCarousel({
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 5000,
+        autoplayHoverPause: true,
+        nav: true,
+        items:3,
+        navText: ["<img class='slider-nav-prev-btn' src='assets/src/prev-btn.png'>","<img class='slider-nav-next-btn' src='assets/src/next-btn.png'>"]
+      });
+    </script>
+<!-- END CAROUSEL -->
+
+
+    <section class="text-start" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h1>CONTACT</h1>
+                    <p class="text-start"><br>Nam turpis augue, luctus et scelerisque et, sollicitudin vel odio. Integer neque elit, accumsan ut tincidunt non, condimentum sed nisi. Etiam faucibus sem lobortis leo ultricies dapibus. Ut scelerisque semper rutrum. Nam fermentum, risus eget gravida eleifend, lorem lacus cursus magna, non luctus lacus justo ut est. Sed dapibus odio sit amet sem gravida scelerisque. Donec ac justo vehicula, fringilla arcu nec, efficitur mi.<br><br></p>
+                </div>
+                <div class="col-md-6">
+                    <div class="row" id="Box-right">
+                        <div class="col loca"><span class="Icone"></span>
+                            <h2 class="text-start"><i class="fa fa-map-marker"></i>&nbsp;Localisation</h2>
+                            <p class="text-start"><br>iledebrehat@mairie-brehat.fr<br><br></p>
+                        </div>
+                        <div class="w-100" id="separateur"></div>
+                        <div class="col mail"><span class="Icone"></span>
+                            <h2 class="text-start"><i class="fa fa-envelope"></i>&nbsp;Email :</h2>
+                            <p class="text-start"><br>iledebrehat@mairie-brehat.fr<br><br></p>
+                        </div>
+                        <div class="col tel">
+                            <h2><span class="Icone"><i class="fa fa-phone"></i></span>&nbsp;Téléphone</h2>
+                            <p class="text-start"><br>+33&nbsp;02 96 20 00 36<br><br></p>
+                        </div>
+                        <div class="w-100" id="separateur"></div>
+                        <div class="col form">
+                            <div class="textuel-box">
+                                <div class="titre">
+                                    <h3>Formulaire pour nous contacter:</h3>
+                                    <div class="titre-ligne"></div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="nom">Entrez votre nom :</label>
+                                    <input type="text" class="form-control" id="nom" placeholder="Votre nom...">
+                                </div>
+                                <div class="form-group">
+                                    <label for="nom">Entrez votre prénom :</label>
+                                    <input type="text" class="form-control" id="prénom" placeholder="Votre prénom...">
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Entrez votre mail :</label>
+                                    <input type="email" class="form-control" id="email" placeholder="Votre adresse mail...">
+                                </div>
+                                <div class="form-group">
+                                    <label for="selection">Ce que vous recherchez :</label>
+                                    <select id="selection" class="form-control">
+                                        <option value="">Vous êtes à la recherche d'un...</option>
+                                        <optgroup label="A la recherche d'un...">
+                                            <option value="">Employé en CDI</option>
+                                            <option value="">Employé en CDD</option>
+                                            <option value="">Stagiaire</option>
+                                            <option value="">Intérimaire</option>
+                                        </optgroup>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="bio">Entrez votre message :</label>
+                                    <textarea class="form-control" id="bio" rows="3" placeholder="Votre message..."></textarea>
+                                </div>
+                                <div class="Envoyer">
+                                    <a class="b-btn"  role="button" >
+                                        <span class="fa fa-paper-plane fa-lg"></span> Envoyer</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="footer_BOX">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-8 mx-auto">
+                    <ul>
+                        <li class="icone">
+                            <a href="https://www.facebook.com/Mairie-de-lile-de-Br%C3%A9hat-109476447520454/">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                         </li>
+                        <li class="icone">
+                            <a href="https://twitter.com/ile_de_brehat?lang=fr">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="icone">
+                            <a href="https://www.instagram.com/ile_de_brehat/?hl=fr">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                <p class="copyright text-muted text-center">Copyright © GRP203 - PJS3 |2021| Web Design by Samsam</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
